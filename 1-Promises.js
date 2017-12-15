@@ -1,5 +1,5 @@
-new Promise((res, rej) => {
-  res("aaa");
+new Promise((a, r) => {
+  a("aaa");
 }).then(result1 => {
   console.log("result1", result1);
   return "bbb";
